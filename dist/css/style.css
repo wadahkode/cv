@@ -1,0 +1,129 @@
+/* Reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+.container {
+  width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 0 4px rgba(0, 0, 0, 0.568);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-width: 4px;
+  padding: 0.5rem 0;
+  gap: 1.5rem;
+}
+
+.flex.border-0 {
+  border: none;
+}
+
+.flex.justify-start {
+  align-items: flex-start;
+}
+
+.heading-1 {
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.heading-2 ul {
+  list-style: none;
+}
+
+.heading-2 ul li {
+  line-height: 1.5rem;
+}
+
+.heading-2 ul li:nth-child(1) {
+  font-weight: 600;
+}
+
+hr {
+  margin-top: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333;
+}
+
+.private-data h1,
+.study h1,
+.skill h1 {
+  background-color: rgba(40, 40, 228, 0.918);
+  width: 144px;
+  font-size: 14pt;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 3rem;
+  margin: 1rem 0;
+}
+
+.study h1 {
+  width: 200px;
+}
+
+.study h2 {
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 14pt;
+}
+
+.skill h1 {
+  width: 180px;
+}
+
+.skill ul {
+  margin-left: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.private-data table {
+  width: 100%;
+}
+.private-data table tr td {
+  padding-top: 0.5rem;
+}
+
+.pp {
+  width: 168px;
+  height: 168px;
+}
+
+.name {
+  font-size: 14pt;
+}
+
+.phone,
+.email {
+  font-size: 12pt;
+}
+
+.email a {
+  color: blue;
+  text-decoration: underline;
+  font-weight: 600;
+}
